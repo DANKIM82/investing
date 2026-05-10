@@ -1,0 +1,15 @@
+# Additional packages needed for the Daloopa-free fork.
+# Append these to your existing requirements.txt (or pip install directly):
+#
+#   pip install -r requirements_addons.txt
+#
+# Most likely yfinance and requests are already in requirements.txt
+# (the original infra/market_data.py uses yfinance). Run:
+#
+#   pip show yfinance
+#   pip show requests
+#
+# to check before installing. If both are present, you don't need this file.
+
+yfinance>=0.2.40
+requests>=2.31.0
